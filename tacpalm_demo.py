@@ -1,0 +1,9 @@
+metric,value
+classification_accuracy,0.9900
+accuracy_bottle_cap,1.0000
+accuracy_box_corner,1.0000
+accuracy_soft_pouch,1.0000
+accuracy_cable_bundle,1.0000
+accuracy_woven_fabric,0.9500
+flaw_detection_accuracy,1.0000
+coordination_triggered_at,12

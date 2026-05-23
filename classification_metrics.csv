@@ -1,0 +1,76 @@
+{
+  "paper": "Soft Robotic Hand with Tactile Palm-Finger Coordination",
+  "scope": "simulation-based, hardware-free reproduction of tactile-image processing ideas",
+  "seed": 42,
+  "n_train_per_class": 50,
+  "n_test_per_class": 20,
+  "classes": [
+    "bottle_cap",
+    "box_corner",
+    "soft_pouch",
+    "cable_bundle",
+    "woven_fabric"
+  ],
+  "classification_accuracy": 0.99,
+  "per_class_accuracy": {
+    "bottle_cap": 1.0,
+    "box_corner": 1.0,
+    "soft_pouch": 1.0,
+    "cable_bundle": 1.0,
+    "woven_fabric": 0.95
+  },
+  "flaw_detection": {
+    "threshold": 281.0,
+    "accuracy": 1.0,
+    "n_trials_per_class": 20,
+    "note": "threshold calibrated for synthetic RGB scale"
+  },
+  "coordination": {
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      97,
+      320,
+      559,
+      796,
+      1107,
+      1501,
+      1482,
+      1481,
+      1481,
+      1480
+    ],
+    "threshold": 420,
+    "triggered_at": 12,
+    "states": [
+      "approach",
+      "approach",
+      "approach",
+      "approach",
+      "approach",
+      "approach",
+      "approach",
+      "approach",
+      "approach",
+      "approach",
+      "approach",
+      "approach",
+      "wrap",
+      "wrap",
+      "wrap",
+      "wrap",
+      "wrap",
+      "wrap",
+      "wrap",
+      "wrap"
+    ]
+  }
+}
